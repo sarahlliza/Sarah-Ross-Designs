@@ -18,8 +18,9 @@
     src: url("../fonts/montserrat/Montserrat-Light.ttf");
 }
 
-/* Overwright main tags */
-
+/**********************************************************************************************************
+*                                   OVERWRIGHT MAIN TAGS                                                  *
+**********************************************************************************************************/
 html *
 {
    font-family: "Montserrat";
@@ -63,7 +64,10 @@ body{
           border-radius: 0 !important;
 }
 
-/* Custom classes */
+/**********************************************************************************************************
+*                                           CUSTOM CLASSES                                                *
+**********************************************************************************************************/
+
 .bold {
     font-family: "Montserrat Bold";
 }
@@ -120,6 +124,19 @@ body{
     background-color: white;
 }
 
+/* Custom css for main content */
+.content-main {
+    padding: 2%;
+}
+
+/* Custom css for header logo */
+.content-header {
+    padding: 2%;
+}
+
+/**********************************************************************************************************
+*                                               MEDIA CSS                                                 *
+**********************************************************************************************************/
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
