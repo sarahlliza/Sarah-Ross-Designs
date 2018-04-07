@@ -131,7 +131,7 @@ body{
 
 /* Custom css for header logo */
 .content-header {
-    padding: 2%;
+    padding-bottom: 2%;
 }
 
 /* General css for main thumbnails*/
