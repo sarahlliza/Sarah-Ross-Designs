@@ -1,0 +1,129 @@
+﻿@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat Italic";
+    src: url("../fonts/montserrat/Montserrat-Italic.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url("../fonts/montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat Light";
+    src: url("../fonts/montserrat/Montserrat-Light.ttf");
+}
+
+/* Overwright main tags */
+
+html *
+{
+   font-family: "Montserrat";
+}
+
+h1 {
+    font-family: "Montserrat" !important;
+	color: #fff !important;
+	text-align: center !important;
+}
+h2 {
+    font-family: "Montserrat" !important;
+	color: #fff !important;
+	text-align: center !important;
+	font-size: 16px !important;
+}
+h3 {
+    font-family: "Montserrat" !important;
+}
+h4 {
+    font-family: "Montserrat" !important;
+}
+h5 {
+    font-family: "Montserrat" !important;
+}
+
+body{
+    width: 100%;
+	background: url('../images/watercolour-header.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+	margin-top: 600px;
+	background-color:#F1F1F1 !important;
+}
+
+* {
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+
+/* Custom classes */
+.bold {
+    font-family: "Montserrat Bold";
+}
+.italic {
+    font-family: "Montserrat Italic";
+}
+.light {
+    font-family: "Montserrat Light";
+}
+.glyphicon-menu-hamburger {
+  font-size: 100%;
+}
+.nav-logo {
+    margin: 1%;
+    max-width: 50% !important;
+}
+
+.navbar-inverse {
+	background-color: #2A3A57 !important;
+}
+
+.navbar-inner {
+  background-color: #000 !important; 
+  background-image: none !important;
+  background-repeat: no-repeat !important;
+  filter: none !important;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 5px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.3%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
