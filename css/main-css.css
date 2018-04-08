@@ -118,10 +118,10 @@ body{
 }
 
 .navbar-inner {
-  background-color: #000 !important; 
-  background-image: none !important;
-  background-repeat: no-repeat !important;
-  filter: none !important;
+	background-color: #000 !important; 
+	background-image: none !important;
+	background-repeat: no-repeat !important;
+	filter: none !important;
 }
 
 .row {
@@ -154,13 +154,17 @@ body{
 
 /* Custom css for main content */
 .content-main {
-    padding: 2%;
+    padding: 10%;
 }
 .centre-services {
 	padding-top: 6%;
 }
-.services-padding {
-	padding: 10%;
+
+.icon-large {
+	width: 100px;
+}
+.services-height {
+	padding-top: -5px;
 }
 
 /* Custom css for header logo */
