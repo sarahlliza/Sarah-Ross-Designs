@@ -18,6 +18,7 @@
     src: url("../fonts/montserrat/Montserrat-Light.ttf");
 }
 
+
 /**********************************************************************************************************
 *                                   OVERWRIGHT MAIN TAGS                                                  *
 **********************************************************************************************************/
@@ -47,6 +48,26 @@ h5 {
     font-family: "Montserrat" !important;
 }
 
+a:link {
+    color: white;
+	font-weight: bold !important;
+}
+
+
+a:visited {
+    color: white !important;
+	
+}
+
+a:hover {
+	color: white !important;
+    text-decoration: underline !important;
+}
+
+a:active {
+    color: white !important;
+}
+
 body{
     width: 100%;
 	background: url('../images/watercolour_header_large.png') no-repeat center center;
@@ -63,12 +84,17 @@ body{
           border-radius: 0 !important;
 }
 
+#font-awesome-icons a {
+	text-decoration: none !important;
+}
+
 /**********************************************************************************************************
 *                                           CUSTOM CLASSES                                                *
 **********************************************************************************************************/
 
 .bold {
-    font-family: "Montserrat Bold";
+    font-family: "Montserrat Bold"!important;
+	font-weight: bold !important;
 }
 .italic {
     font-family: "Montserrat Italic";
@@ -138,6 +164,29 @@ body{
 .thumbnail-main {
 	width: 100%;
 }
+
+.font-awesome-social {
+	margin-top: 2%;
+	padding: 1%;
+	font-size: 2em !important;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	color: white;
+    background-color:#E0533D;
+    text-align: center;
+}
+
+.image-spacing {
+	padding: 2%;
+}
+
+
 
 /**********************************************************************************************************
 *                                               MEDIA CSS                                                 *
