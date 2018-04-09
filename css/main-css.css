@@ -96,7 +96,6 @@ body{
 
 .watercolour {
 	width: 100%;
-	background: url('../images/watercolour_header_large.png') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -228,14 +227,29 @@ body{
     }
 }
 
-@media (max-width: 1360px) {
+@media (min-width: 1201px) {
 	.watercolour {
-		background: url('../images/watercolour_header_medium.png') no-repeat center center;
+		background: url('../images/watercolour_header_large.png') no-repeat;
+	}
+	.homepage-space {
+		padding-top:15%;
+	}
+}
+
+@media (max-width: 1200px) {
+	.watercolour {
+		background: url('../images/watercolour_header_medium.png') no-repeat;
+	}
+	.homepage-space {
+		padding-top:15%;
 	}
 }
 
 @media (max-width: 640px) {
 	.watercolour {
-		background: url('../images/watercolour_header_small.png') no-repeat center center;
+		background: url('../images/watercolour_header_small.png') no-repeat;
+	}
+	.homepage-space {
+		padding-top:15%;
 	}
 }
