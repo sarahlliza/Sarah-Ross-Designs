@@ -31,22 +31,29 @@ h1 {
     font-family: "Montserrat" !important;
 	color: #fff !important;
 	text-align: center !important;
+	font-size: 3em !important;
 }
 h2 {
     font-family: "Montserrat" !important;
 	color: #fff !important;
 	text-align: center !important;
-	font-size: 16px !important;
+	font-size: 1.2em !important;
 }
 h3 {
-    font-family: "Montserrat Bold" !important;
-	font-size: 16px !important;
+    font-family: "Montserrat" !important;
+	color: #000;
+	text-align: center !important;
+	font-size: 3em !important;
 }
 h4 {
-    font-family: "Montserrat" !important;
+     font-family: "Montserrat" !important;
+	color: #000 !important;
+	text-align: center !important;
+	font-size: 1.2em !important;
 }
 h5 {
-    font-family: "Montserrat" !important;
+    font-family: "Montserrat Bold" !important;
+	font-size: 1.2em !important;
 }
 
 a:link {
@@ -70,12 +77,6 @@ a:active {
 }
 
 body{
-    width: 100%;
-	background: url('../images/watercolour_header_large.png') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
 	background-color:#F1F1F1 !important;
 }
 
@@ -92,6 +93,18 @@ body{
 /**********************************************************************************************************
 *                                           CUSTOM CLASSES                                                *
 **********************************************************************************************************/
+
+.watercolour {
+	width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+.header {
+	margin-top: -5%;
+}
 
 .bold {
     font-family: "Montserrat Bold"!important;
@@ -118,14 +131,14 @@ body{
 }
 
 .navbar-inner {
-  background-color: #000 !important; 
-  background-image: none !important;
-  background-repeat: no-repeat !important;
-  filter: none !important;
+	background-color: #000 !important; 
+	background-image: none !important;
+	background-repeat: no-repeat !important;
+	filter: none !important;
 }
 
 .row {
-    margin: 8px -16px;
+    
 }
 
 /* Add padding BETWEEN each column */
@@ -154,14 +167,20 @@ body{
 
 /* Custom css for main content */
 .content-main {
-    padding: 2%;
-	padding-top: 14%;
+    padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 .centre-services {
 	padding-top: 6%;
 }
-.services-padding {
-	padding: 10%;
+
+.icon-large {
+	width: 100px;
+}
+.services-height {
+	padding-top: -5px;
 }
 
 /* Custom css for header logo */
@@ -208,8 +227,29 @@ body{
     }
 }
 
-@media (max-width: 1035px) {
-	body {
-		background: url('../images/watercolour_header_medium.png') no-repeat center center;
+@media (min-width: 1201px) {
+	.watercolour {
+		background: url('../images/watercolour_header_large.png') no-repeat;
+	}
+	.homepage-space {
+		padding-top:15%;
+	}
+}
+
+@media (max-width: 1200px) {
+	.watercolour {
+		background: url('../images/watercolour_header_medium.png') no-repeat;
+	}
+	.homepage-space {
+		padding-top:15%;
+	}
+}
+
+@media (max-width: 640px) {
+	.watercolour {
+		background: url('../images/watercolour_header_small.png') no-repeat;
+	}
+	.homepage-space {
+		padding-top:15%;
 	}
 }
