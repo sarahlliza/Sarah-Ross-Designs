@@ -137,6 +137,12 @@ body{
 	filter: none !important;
 }
 
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%
+}
+
 .row {
     
 }
