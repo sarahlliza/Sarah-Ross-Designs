@@ -78,6 +78,8 @@ a:active {
 
 body{
 	background-color:#F1F1F1 !important;
+    /* padding top to adjust for sticky navbar */
+    padding-top: 6%;
 }
 
 * {
