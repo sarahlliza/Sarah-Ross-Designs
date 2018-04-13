@@ -50,10 +50,16 @@ h4 {
 	color: #000 !important;
 	text-align: center !important;
 	font-size: 1.2em !important;
+	padding-bottom: 2%;
 }
 h5 {
     font-family: "Montserrat Bold" !important;
 	font-size: 1.2em !important;
+}
+h6 {
+    font-family: "Montserrat" !important;
+	font-size: 1em !important;
+	text-align: center !important;
 }
 
 a:link {
@@ -78,6 +84,8 @@ a:active {
 
 body{
 	background-color:#F1F1F1 !important;
+    /* padding top to adjust for sticky navbar */
+    padding-top: 6%;
 }
 
 * {
@@ -126,6 +134,10 @@ body{
     max-width: 50% !important;
 }
 
+.navbar-brand {
+	margin-left: 2%;
+}
+
 .navbar-inverse {
 	background-color: #2A3A57 !important;
 }
@@ -137,8 +149,14 @@ body{
 	filter: none !important;
 }
 
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%
+}
+
 .row {
-    
+   
 }
 
 /* Add padding BETWEEN each column */
@@ -173,7 +191,8 @@ body{
 	padding-bottom: 5%;
 }
 .centre-services {
-	padding-top: 6%;
+	
+    margin: 0 auto;
 }
 
 .icon-large {
@@ -214,6 +233,14 @@ body{
 	padding: 2%;
 }
 
+.service-row .col-sm-4 {
+text-align:center;	
+	margin-top: 2%;
+}
+
+.work-margin {
+	margin-top: 5%;
+}
 
 
 /**********************************************************************************************************

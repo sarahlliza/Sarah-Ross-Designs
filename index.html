@@ -8,18 +8,12 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 
-    <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
-    <!--TODO: make main script minified-->
-    <script type="text/javascript" src="scripts/main-js.js"></script>
 	<meta charset="utf-8" />
 </head>
 <body class="watercolour">
-	<a name="top"></a>
-
     <!-- #region Navbar -->
 	
-	<nav class="navbar navbar-inverse navbar-inner">
+	<nav id="nav-main" class="navbar navbar-inverse navbar-inner navbar-fixed-top">
 	    <div class="container nav">
 		    <div class="navbar-header">
 			
@@ -30,13 +24,13 @@
 				    <span class="icon-bar"></span>
 			    </button>
 			
-			    <a class="navbar-brand" href="#home"><img src="images/sarah-ross-designs-logo.svg" width="70%" align="center" alt="Sarah Ross Logo"></a>
+			    <a class="navbar-brand" href="index.html"><img src="images/sarah-ross-designs-logo.svg" width="70%" align="center" alt="Sarah Ross Logo"></a>
 		    </div>
 		
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			    <ul class="nav navbar-nav navbar-right">
-				    <li><a href="#work">WORK</a></li>
-                    <li><a href="#about">ABOUT</a></li>
+				    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="work.html">WORK</a></li>
                     <li><a href="#contact">CONTACT</a></li>
 			    </ul>
 		    </div>		
@@ -60,7 +54,9 @@
 	
         <div class="column">
             <div class="content">
+				<a href="london-symphonia.html">
                 <img src="images/london_symphonia_thumb.png" alt="London Symphonia" class="thumbnail-main">
+				</a>
             </div>
         </div>
         <div class="column">
@@ -80,9 +76,11 @@
         </div>
         <div class="column">
             <div class="content">
-                <a href="masquerade.html"><img src="images/masquerade_thumb.png" alt="Masquerade" class="thumbnail-main"></a>
+                <a href="masquerade.html">
+                    <img src="images/masquerade_thumb.png" alt="Masquerade" class="thumbnail-main">
+                </a>
             </div>
-        </div>
+        </div>         
         <div class="column">
             <div class="content">
                 <img src="images/cswo_video_thumb.png" alt="cSWO Video" class="thumbnail-main">
@@ -107,60 +105,69 @@
 	
 <!-- Services start here -->	
 
-        <div class="row">
+        <div class="row service-row">
 	        <div class="col-sm-4">
-		        <div class="row">
-			        <div class="col-sm-3"> <img class="icon-large" src="images/icons/illustration-icon.svg" alt="Illustration Icon"></div>
-			        <div class="col-sm-9 bold centre-services"><h5>ILLUSTRATION</h5></div>
-		        </div>
-	        </div>
-	        <div class="col-sm-4">
-		        <div class="row">
-			        <div class="col-sm-3"> <img class="icon-large" src="images/icons/logo-design-icon.svg" alt="Logo Design Icon"></div>
-			        <div class="col-sm-9 bold centre-services"><h5>LOGO DESIGN</h5></div>
-		        </div>
+		        <div class="row centre-services">
+                        <img class="icon-large" src="images/icons/illustration-icon.svg" alt="Illustration Icon">
+                        <br />
+                        <h5>ILLUSTRATION</h5>
+                </div>
 	        </div>
 	        <div class="col-sm-4">
-		        <div class="row">
-			        <div class="col-sm-3"> <img class="icon-large" src="images/icons/brand-development-icon.svg" alt="Brand Development Icon"></div>
-			        <div class="col-sm-9 bold centre-services"><h5>BRAND DEVELOPMENT</h5></div>
+                <div class="row centre-services">
+                    <img class="icon-large" src="images/icons/logo-design-icon.svg" alt="Logo Design Icon">
+                    <br />
+                    <h5>LOGO DESIGN</h5>
+                </div>
+	        </div>
+	        <div class="col-sm-4">
+                <div class="row centre-services">
+                    <img class="icon-large" src="images/icons/brand-development-icon.svg" alt="Brand Development Icon">
+                    <br />
+                    <h5>BRAND DEVELOPMENT</h5>
 		        </div>
 	        </div>
 			 <div class="col-sm-4">
-		        <div class="row">
-			        <div class="col-sm-3"> <img class="icon-large" src="images/icons/print-collateral-icon.svg" alt="Print Collateral Icon"></div>
-			        <div class="col-sm-9 bold centre-services"><h5>PRINT COLLATERAL</h5></div>
-		        </div>
+              <div class="row centre-services">
+                 <img class="icon-large" src="images/icons/print-collateral-icon.svg" alt="Print Collateral Icon">
+                 <br />
+                 <h5>PRINT COLLATERAL</h5>
+              </div>
 	        </div>
 			 <div class="col-sm-4">
-		        <div class="row">
-			        <div class="col-sm-3"> <img class="icon-large" src="images/icons/infographic-design-icon.svg" alt="Infographic Design Icon"></div>
-			        <div class="col-sm-9 bold centre-services"><h5>INFOGRAPHIC DESIGN</h5></div>
-		        </div>
+              <div class="row centre-services">
+                 <img class="icon-large" src="images/icons/infographic-design-icon.svg" alt="Infographic Design Icon">
+                 <br />
+                 <h5>INFOGRAPHIC DESIGN</h5>
+              </div>
 	        </div>
 			 <div class="col-sm-4">
-		        <div class="row">
-			        <div class="col-sm-3"> <img class="icon-large" src="images/icons/digital-media-icon.svg" alt="Digital Media Icon"></div>
-			        <div class="col-sm-9 bold centre-services"><h5>DIGITAL MEDIA</h5></div>
-		        </div>
+              <div class="row centre-services">
+                 <img class="icon-large" src="images/icons/digital-media-icon.svg" alt="Digital Media Icon">
+                 <br />
+                 <h5>DIGITAL MEDIA</h5>
+              </div>
 	        </div>
 			 <div class="col-sm-4">
-		        <div class="row">
-			        <div class="col-sm-3"> <img class="icon-large" src="images/icons/character-design-icon.svg" alt="Character Design Icon"></div>
-			        <div class="col-sm-9 bold centre-services"><h5>CHARACTER DESIGN</h5></div>
-		        </div>
+              <div class="row centre-services">
+                 <img class="icon-large" src="images/icons/character-design-icon.svg" alt="Character Design Icon">
+                 <br />
+                 <h5>CHARACTER DESIGN</h5>
+              </div>
 	        </div>
 			 <div class="col-sm-4">
-		        <div class="row">
-			        <div class="col-sm-3"> <img class="icon-large" src="images/icons/hand-lettering-icon.svg" alt="Hand Lettering Icon"></div>
-			        <div class="col-sm-9 bold centre-services"><h5>HAND LETTERING</h5></div>
-		        </div>
+              <div class="row centre-services">
+                  <img class="icon-large" src="images/icons/hand-lettering-icon.svg" alt="Hand Lettering Icon">
+                 <br />
+                 <h5>HAND LETTERING</h5>
+              </div>
 	        </div>
 			 <div class="col-sm-4">
-		        <div class="row">
-			        <div class="col-sm-3"> <img class="icon-large" src="images/icons/video-storyboarding-icon.svg" alt="Video Storyboarding Icon"></div>
-			        <div class="col-sm-9 bold centre-services"><h5>VIDEO STORYBOARDING</h5></div>
-		        </div>
+              <div class="row centre-services">
+                  <img class="icon-large" src="images/icons/video-storyboarding-icon.svg" alt="Video Storyboarding Icon">
+                 <br />
+                 <h5>VIDEO STORYBOARDING</h5>
+              </div>
 	        </div>
         </div>
 	
@@ -191,7 +198,7 @@
 				</a>
 			</div>
 			
-			<a href="#top">
+			<a href="#">
 			   <img class="image-spacing" src="images/sarah-ross-designs-icon.svg" align="center" width="10%" alt="Sarah Ross Designs Icon">
 			</a>
 		</div>
@@ -199,3 +206,7 @@
 	
 </body>
 </html>
+<script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+<!--TODO: make main script minified-->
+<script type="text/javascript" src="scripts/main-js.js"></script>
