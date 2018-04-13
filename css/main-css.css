@@ -50,10 +50,16 @@ h4 {
 	color: #000 !important;
 	text-align: center !important;
 	font-size: 1.2em !important;
+	padding-bottom: 2%;
 }
 h5 {
     font-family: "Montserrat Bold" !important;
 	font-size: 1.2em !important;
+}
+h6 {
+    font-family: "Montserrat" !important;
+	font-size: 1em !important;
+	text-align: center !important;
 }
 
 a:link {
@@ -128,6 +134,10 @@ body{
     max-width: 50% !important;
 }
 
+.navbar-brand {
+	margin-left: 2%;
+}
+
 .navbar-inverse {
 	background-color: #2A3A57 !important;
 }
@@ -146,7 +156,7 @@ body{
 }
 
 .row {
-    
+   
 }
 
 /* Add padding BETWEEN each column */
@@ -183,7 +193,6 @@ body{
 .centre-services {
 	
     margin: 0 auto;
-     width: 100px;
 }
 
 .icon-large {
@@ -224,6 +233,14 @@ body{
 	padding: 2%;
 }
 
+.service-row .col-sm-4 {
+text-align:center;	
+	margin-top: 2%;
+}
+
+.work-margin {
+	margin-top: 5%;
+}
 
 
 /**********************************************************************************************************
