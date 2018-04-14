@@ -102,6 +102,7 @@ body{
 *                                           CUSTOM CLASSES                                                *
 **********************************************************************************************************/
 
+
 .watercolour {
 	width: 100%;
     -webkit-background-size: cover;
@@ -234,13 +235,18 @@ body{
 }
 
 .service-row .col-sm-4 {
-text-align:center;	
-	margin-top: 2%;
+	text-align:center;	
+		margin-top: 2%;
 }
 
 .work-margin {
 	margin-top: 5%;
 }
+
+.container {
+	text-align: center;
+}
+
 
 
 /**********************************************************************************************************
