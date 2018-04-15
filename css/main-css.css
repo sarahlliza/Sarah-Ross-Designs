@@ -285,6 +285,10 @@ body{
   text-align: center;
 }
 
+.navbar-brand .image2{
+   display: none;
+}
+
 
 
 /**********************************************************************************************************
@@ -321,6 +325,19 @@ body{
 		background: url('../images/watercolour_header_small.png') no-repeat;
 	}
 	.homepage-space {
-		padding-top:15%;
+		padding-top:35%;
 	}
+	.header-space {
+		padding-top: 10%;
+	}
+}
+
+@media only screen and (max-width: 500px){
+   .navbar-brand .image1{
+     display: none;
+   }
+
+   .navbar-brand .image2{
+     display: block;
+   }
 }
