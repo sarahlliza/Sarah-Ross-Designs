@@ -1,21 +1,21 @@
 ﻿@font-face {
     font-family: "Montserrat";
-    src: url("../fonts/montserrat/Montserrat-Regular.ttf");
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
 }
 
 @font-face {
     font-family: "Montserrat Italic";
-    src: url("../fonts/montserrat/Montserrat-Italic.ttf");
+    src: url("../fonts/Montserrat/Montserrat-Italic.ttf");
 }
 
 @font-face {
     font-family: "Montserrat Bold";
-    src: url("../fonts/montserrat/Montserrat-Bold.ttf");
+    src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
 }
 
 @font-face {
     font-family: "Montserrat Light";
-    src: url("../fonts/montserrat/Montserrat-Light.ttf");
+    src: url("../fonts/Montserrat/Montserrat-Light.ttf");
 }
 
 
@@ -98,8 +98,36 @@ body{
           border-radius: 0 !important;
 }
 
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: none; /* Gray border */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #000;
+    color: white;
+	margin-top: 2%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #E0533D;
+}
+
 #font-awesome-icons a {
 	text-decoration: none !important;
+	color: white;
 }
 
 /**********************************************************************************************************
@@ -220,7 +248,7 @@ body{
 .font-awesome-social {
 	margin-top: 2%;
 	padding: 1%;
-	font-size: 2em !important;
+	font-size: 2.5em !important;
 }
 
 .footer {
@@ -229,6 +257,8 @@ body{
     width: 100%;
 	padding-top: 2%;
 	padding-bottom: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
 	color: white;
     background-color:#E0533D;
     text-align: center;
@@ -285,6 +315,24 @@ body{
   text-align: center;
 }
 
+.navbar-brand .image2{
+   display: none;
+}
+
+.icon {
+	width: 10%;
+}
+
+.container .form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 5%;
+	margin:auto;
+	text-align: center;
+	
+}
+
+
 
 
 /**********************************************************************************************************
@@ -321,6 +369,22 @@ body{
 		background: url('../images/watercolour_header_small.png') no-repeat;
 	}
 	.homepage-space {
-		padding-top:15%;
+		padding-top:35%;
 	}
+	.header-space {
+		padding-top: 10%;
+	}
+}
+
+@media only screen and (max-width: 500px){
+   .navbar-brand .image1{
+     display: none;
+   }
+
+   .navbar-brand .image2{
+     display: block;
+   }
+	.header {
+	margin-top: 0%;
+}
 }
